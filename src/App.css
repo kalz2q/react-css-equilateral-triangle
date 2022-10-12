@@ -23,7 +23,6 @@
   border-bottom: 173px solid orange;
   border-right: 100px solid transparent;
   border-left: 100px solid transparent;
-  /* opacity: 0.3; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
