@@ -1,33 +1,25 @@
 .App {
   text-align: center;
-  /* background-color: cornflowerblue; */
-  /* min-height: 100vh; */
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
+  background-color: cornflowerblue;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 100px;
 }
 
-.box {
-  width: 231px;
-  height: 231px;
-  background-color: blue;
-  border-radius: 50%;
-}
 .triangle {
   width: 0;
   height: 0;
-  position: relative;
-  top: 0px;
-  left: 15.5px;
   border-bottom: 173px solid orange;
-  border-right: 100px solid transparent;
-  border-left: 100px solid transparent;
-  /* opacity: 0.3; */
+  border-right: 100px solid green;
+  border-left: 100px solid red;
+
+  opacity: 0.3;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .box {
+  .triangle {
     /* transform-origin: 50% 66.6%; */
     animation: App-logo-spin infinite 2s linear;
   }
